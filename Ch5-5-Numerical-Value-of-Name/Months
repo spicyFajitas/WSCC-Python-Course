@@ -1,0 +1,16 @@
+from string import *
+
+
+#n=0
+#text=input("Please enter name in quotation marks:")
+#ord("A")
+#for ch in text:
+#	ord(text)
+
+#print(n)
+
+text=eval(input("Please enter full name without spaces:"))
+for ch in "text":
+	ord(text)
+	
+print(ord(text))

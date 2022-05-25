@@ -1,0 +1,11 @@
+#prints intro
+
+n=(input("Please enter full name:"))
+
+total=0
+newvar=n.lower()
+
+
+for ch in newvar:	
+		total=(total+ord(ch)-96)
+print(total)
